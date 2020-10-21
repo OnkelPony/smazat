@@ -1,5 +1,7 @@
 package arithmetic
 
+import "errors"
+
 // Counts number of malas to achieve given repetitions
 func MalaCounts(n int) (int, error) {
 	if n%108 != 0 {
